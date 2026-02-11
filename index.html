@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="BEVIGROW delivers premium coffee and spices from Yercaud, India.">
+  <title>BEVIGROW | Harvested with Care. Delivered with Quality.</title>
+  <link rel="icon" href="images/bevigrow-favicon.png">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link href="./css/styles.css" rel="stylesheet">
+  <style>
+@media (max-width: 767px) {
+
+  /* Remove negative spacing on mobile */
+  .herosize { 
+    margin-top: 0 !important; 
+    margin-bottom: 0 !important; 
+  }
+
+  .herosize1 { 
+    margin-top: 0 !important; 
+  }
+
+  /* Product images */
+  .product-img img {
+    height: 220px;
+    object-fit: cover;
+  }
+
+  /* Hero buttons full width */
+  .hero .btn {
+    width: 80%;
+    margin-left: 40px;
+  }
+
+  /* TEXT ALIGNMENT (IMPORTANT) */
+  .hero,
+  .hero h1,
+  .hero p,
+  .card,
+  .card-title,
+  .card-text {
+    text-align: center !important;
+  }
+
+  /* Improve readability on mobile */
+  .card-title {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .card-text {
+    font-size: 0.9rem;
+    line-height: 1.5;
+  }
+
+  /* Better spacing inside cards */
+  .card-body {
+    padding: 16px !important;
+  }
+}
+</style>
+
+
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" height="48" alt="BEVIGROW">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bevigrwNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="bevigrwNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="product.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="export.html">Contact/Enquiry</a></li>
+          <!-- <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li> -->
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO WITH VIDEO -->
+  <section class="hero">
+
+    <video class="hero-video" autoplay muted loop playsinline>
+      <source src="images/hero_video.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero-overlay"></div>
+
+    <div class="container hero-content">
+      <div class="row align-items-center">
+        <div class="col-lg-6">
+          <span class="badge-1 badge-main badge badge-custom mb-3">Yercaud Estate Origin</span>
+          <h1 class="hero-main display-5 fw-bold">Harvested with Care.<br>Delivered with Quality.</h1>
+          <p class=" hero-main lead">
+            BEVIGROW brings the freshness of highland estates to global buyers with premium coffee and spices.
+          </p>
+          <div class="d-flex gap-3 flex-wrap">
+            <a href="product.html" class="btn btn-light">View Products</a>
+            <a href="export.html" class="btn btn-outline-light">Export Enquiry</a>
+          </div>
+        </div>
+
+        <div class="col-lg-6 d-none d-lg-block">
+          <!-- <img src="images/hero.webp" class="img-fluid hero-img" alt="Estate"> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INTRO -->
+  <section class="py-5">
+    <div class="container">
+      <div class="row align-items-center g-4">
+        <div class="col-lg-6">
+          <img src="images/img6.jpg" class="img-fluid rounded-4">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="section-title">Estate-Grown Excellence</h2>
+          <p>
+            Rooted in the misty hills , BEVIGROW coffee and spices directly from estate partners.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HIGHLIGHTS -->
+  <section class="py-5 section-soft">
+    <div class="container">
+      <div class="row g-4 text-center">
+        <div class="col-md-4">
+          <a class="container carddis " href="coffee_product.html">
+            <div class=" card card-custom p-4">
+              <h5>Coffee Products</h5>
+              <p> Green & roasted beans, blends and filter coffee.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a class="container carddis " href="crispy.html">
+            <div class="card card-custom p-4">
+              <h5>Spice Products</h5>
+              <p>sPepper, cardamom, cinnamon, turmeric & more.</p>
+            </div>
+          </a>
+        </div>
+        <div class="col-md-4">
+          <a class="container carddis " href="export.html">
+            <div class="card card-custom p-4">
+              <h5>Export Supply</h5>
+              <p>Bulk-ready, export-grade sourcing & packing.</p>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="py-5">
+    <div class="container text-center">
+      <h2 class="section-title">Partner with a trusted estate-first supplier</h2>
+      <a href="export.html" class="btn btn-primary btn-lg mt-3">Export / Bulk Enquiry</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer py-4">
+    <div class="container text-center">
+      <p class="mb-1">+91 9962284842 | bevigrow@gmail.com</p>
+      <small>© 2026 BEVIGROW. All rights reserved.</small>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

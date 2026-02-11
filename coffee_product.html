@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore BEVIGROW's crispy products — green beans, roasted coffee, and filter blends.">
+  <meta name="keywords" content="coffee, green coffee beans, roasted coffee beans, filter coffee, Arabica, BEVIGROW">
+  <title>Coffee Products | BEVIGROW</title>
+  <link rel="icon" href="images/bevigrow-favicon.png">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- ONLY for mobile responsiveness (doesn't change your existing css file) -->
+  <style>
+    /* make images fit nicely on mobile */
+    @media (max-width: 767px) {
+      .herosize { margin-top: 0 !important; margin-bottom: 0 !important; }
+      .herosize1 { margin-top: 0 !important; }
+
+      .product-img img{
+        height: 220px;
+        object-fit: cover;
+      }
+
+      .hero .btn{
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="images/logo.png" alt="BEVIGROW logo" height="48">
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#bevigrwNav"
+        aria-controls="bevigrwNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="bevigrwNav">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="product.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="export.html">Contact/Enquiry</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero11 herosize hero py-5">
+    <div class="container mt-1 py-4 text-center">
+      <h1 class="display-6 fw-bold">Our Coffee Portfolio</h1>
+      <p class="lead mx-auto" style="max-width: 720px;">
+        Estate-grown coffees curated for wholesalers, importers, cafés, and private labels.
+      </p>
+
+      <div class="d-flex justify-content-center gap-3 flex-wrap mt-3">
+        <a href="export.html" class="btn btn-primary">Request Samples</a>
+        <a href="export.html#contact" class="btn btn-light">Talk to Us</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS -->
+  <section class="herosize1 py-5 fade-in">
+    <div class="container">
+
+      <!-- ✅ Responsive Bootstrap Grid -->
+      <div class="row g-4 justify-content-center">
+
+        <!-- 1 -->
+        <div class="col-12 col-md-6 col-lg-4 d-flex">
+          <div class="product-card w-100">
+            <div class="card card-custom h-100 text-center">
+              <div class="product-img">
+                <img src="product_images/filter_coffee.png" alt="Green Coffee Beans">
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Arabica highland Washed - Green Coffee Beans</h5>
+                <p class="card-text">Arabica Highland Washed - Green beans with consistent processing and moisture control.</p>
+                <a href="export.html" class="product-btn mt-auto">Enquire Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 2 -->
+        <div class="col-12 col-md-6 col-lg-4 d-flex">
+          <div class="product-card w-100">
+            <div class="card card-custom h-100 text-center">
+              <div class="product-img">
+                <img src="product_images/filter_coffee.png" alt="Roasted Coffee Beans">
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">Arabica highland Roasted - Coffee Beans</h5>
+                <p class="card-text">Arabica Highland Washed - Roasted beans with consistent processing and moisture control.</p>
+                <a href="export.html" class="product-btn mt-auto">Enquire Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- 3 -->
+        <div class="col-12 col-md-6 col-lg-4 d-flex">
+          <div class="product-card w-100">
+            <div class="card card-custom h-100 text-center">
+              <div class="product-img">
+                <img src="product_images/filter_coffee.png" alt="Filter Coffee">
+              </div>
+              <div class="card-body d-flex flex-column">
+                <h5 class="card-title">100% Arabica Highland Filter Coffee</h5>
+                <p class="card-text">Export-grade Arabica & Robusta beans with consistent processing and moisture control.</p>
+                <a href="export.html" class="product-btn mt-auto">Enquire Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div><!-- /.row -->
+
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer py-4">
+    <div class="container">
+      <div class="row g-3">
+        <div class="col-md-6">
+          <h5 class="mb-2">BEVIGROW</h5>
+          <p class="mb-0">Harvested with Care. Delivered with Quality.</p>
+        </div>
+        <div class="col-md-6 text-md-end">
+          <p class="mb-1">+91 9962284842 | bevigrow@gmail.com</p>
+          <p class="mb-0">Beverley Estate, Kottachedu Post, Yercaud – 636601, India</p>
+        </div>
+      </div>
+      <div class="text-center pt-3">
+        <small>© 2026 BEVIGROW. All rights reserved.</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
