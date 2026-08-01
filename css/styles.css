@@ -217,7 +217,7 @@ body {
 /* BUTTONS */
 .btn-primary {
   background: linear-gradient(120deg, #1f5d35, var(--leaf));
-  border-color: transparent;
+  border: 0;
   box-shadow: 0 12px 24px rgba(31, 59, 44, 0.22);
   letter-spacing: 0.3px;
   text-transform: uppercase;
@@ -226,7 +226,7 @@ body {
 
 .btn-primary:hover {
   background: linear-gradient(120deg, #1b4e2d, #4fb35b);
-  border-color: transparent;
+  border: 0;
 }
 
 .btn-light {
