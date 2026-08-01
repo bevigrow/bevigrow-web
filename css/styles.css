@@ -285,6 +285,27 @@ body {
   transform: translateY(0);
 }
 
+/* EVENTS CAROUSEL */
+.event-carousel {
+  max-width: 900px;
+  margin: 0 auto;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 16px 40px rgba(31, 59, 44, 0.18);
+  border: 1px solid rgba(31, 59, 44, 0.08);
+}
+
+.event-carousel .carousel-item img {
+  height: 460px;
+  object-fit: cover;
+}
+
+@media (max-width: 767px) {
+  .event-carousel .carousel-item img {
+    height: 240px;
+  }
+}
+
 /* SECTION BG */
 .section-soft {
   background:
